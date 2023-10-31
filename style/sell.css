@@ -1,0 +1,123 @@
+.promote-text{
+  margin-bottom: 24px;
+  justify-content:start;
+}
+
+.first-text{
+    font-family: 'Roboto', system-ui, sans-serif;
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 30px;
+}
+
+.second-text {
+    margin-top: 4px;
+    font-family: 'Roboto', system-ui, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(5,5,5);
+}
+
+.product-grid {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 32px;
+    row-gap: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+
+  .product-card{
+    display:flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    flex-direction: column;
+    border-radius: 16px;
+  }
+
+.product-pic{
+  height: 354px;
+  display:block;
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-right: 16px;
+}
+
+.picture {
+  box-sizing: border-box;
+  height: 320px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*product description*/
+.product-info{
+  padding:32px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 8px;
+  row-gap: 8px;
+}
+
+  .product-name{
+    font-family: 'Roboto', system-ui, sans-serif;
+    font-size: 20px;
+    margin:0px;
+  }
+
+  .product-price{
+    font-family: 'Roboto', system-ui, sans-serif;
+    font-size: 16px;
+  }
+
+  .product-desc{
+    font-family: 'Roboto', system-ui, sans-serif;
+    font-size: 16px;
+  }
+
+  .sell{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
+    max-width: 1152px;
+    justify-content: center;
+
+  }
+
+
+  .buy-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    font-family: 'Roboto', system-ui, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(5, 5, 5, 0.2);
+    background-color: rgba(51, 50, 50, 0.2);
+    text-transform: uppercase;
+    border-color: rgba(16, 63, 69, 0);
+    border-radius: 8px;
+    cursor: not-allowed;
+
+  }
+  
+  .unavailable{
+    margin-right: 4px;
+    width: 24px;
+  }
+  
+  .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:48px;
+    margin-top: 12px;
+  }
